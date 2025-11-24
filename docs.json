@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "Haunt.gg Documentation",
+  "name": "Playzo Documentation",
   "colors": {
     "primary": "#F27DB3",
     "light": "#F38ABA",
@@ -16,6 +16,7 @@
           {
             "group": "Playzo",
             "pages": [
+              "playzo/introduction",
               "overview/changelog",
               "overview/faq",
               "overview/products",
