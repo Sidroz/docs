@@ -100,20 +100,19 @@
   "navbar": {
     "links": [
       {
-        "label": "Home",
-        "href": "https://haunt.gg"
+        "label": "Accueil",
+        "href": "https://playzo.fr"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://haunt.gg/dashboard"
+      "href": "https://playzo.fr/dashboard"
     }
   },
   "footer": {
     "socials": {
-      "discord": "https://discord.gg/hauntbio",
-      "github": "https://github.com/hauntgg/docs"
+      "discord": "https://discord.gg/YExAKF7euR"
     }
   }
 }
