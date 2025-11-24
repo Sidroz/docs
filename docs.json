@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
-  "name": "Playzo Documentation",
+  "theme": "maple",
+  "name": "Playzo Aide",
   "colors": {
     "primary": "#F27DB3",
     "light": "#F38ABA",
