@@ -17,17 +17,16 @@
             "group": "Playzo",
             "pages": [
               "playzo/introduction",
-              "overview/changelog",
-              "overview/faq",
-              "overview/products",
+              "playzo/changelog",
+              "playzo/faq",
               "overview/register"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Personnalisez votre Profil",
             "pages": [
-              "customization/assets",
-              "customization/badges",
+              "profil/assets",
+              "profil/badges",
               "customization/customization",
               "customization/decoration",
               "customization/links",
