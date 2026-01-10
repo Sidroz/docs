@@ -66,63 +66,6 @@
             ]
           }
         ]
-      },
-      {
-        "tab": "Guide",
-        "global": {
-          "languages": [
-            {
-              "language": "en",
-              "href": "https://help.playzo.fr/playzo/introduction"
-            }
-          ]
-        },
-        "groups": [
-          {
-            "group": "Playzo",
-            "pages": [
-              "playzo/introduction-copied-1",
-              "playzo/changelog-copied-1",
-              "playzo/faq-copied-1",
-              "playzo/register-copied-1"
-            ]
-          },
-          {
-            "group": "Personnalisez votre Profil",
-            "pages": [
-              "profil/customisation-copied-1",
-              "profil/badges-copied-1",
-              "profil/apparence-copied-1",
-              "customization/titres-copied-1",
-              "customization/jeux-copied-1",
-              "customization/reseaux-copied-1"
-            ]
-          },
-          {
-            "group": "Recherche de mates",
-            "pages": [
-              "recherche/annonce-copied-1"
-            ]
-          },
-          {
-            "group": "Guides",
-            "pages": [
-              "guides/partage-copied-1",
-              "guides/discord-copied-1",
-              "guides/premium-copied-1",
-              "guides/verification-copied-1",
-              "guides/parrainage-copied-1"
-            ]
-          },
-          {
-            "group": "Aide",
-            "pages": [
-              "troubleshooting/personnalisation-copied-1",
-              "troubleshooting/discord-copied-1",
-              "troubleshooting/login-copied-1"
-            ]
-          }
-        ]
       }
     ]
   },
