@@ -42,6 +42,7 @@
           {
             "group": "Guides",
             "pages": [
+              "guides/guides/partage",
               "guides/discord",
               "guides/premium",
               "guides/verification",
