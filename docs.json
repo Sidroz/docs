@@ -15,12 +15,12 @@
         "global": {
           "languages": [
             {
-              "language": "en",
-              "href": "https://help.playzo.fr/en/playzo/introduction"
-            },
-            {
               "language": "fr",
               "href": "https://help.playzo.fr/playzo/introduction"
+            },
+            {
+              "language": "en",
+              "href": "https://help.playzo.fr/en/playzo/introduction"
             }
           ]
         },
@@ -67,6 +67,20 @@
               "troubleshooting/personnalisation",
               "troubleshooting/discord",
               "troubleshooting/login"
+            ]
+          },
+          {
+            "group": "en",
+            "pages": [
+              {
+                "group": "Playzo",
+                "pages": [
+                  "en/playzo/introduction",
+                  "playzo-copied-1/changelog",
+                  "playzo-copied-1/faq",
+                  "playzo-copied-1/register"
+                ]
+              }
             ]
           }
         ]
