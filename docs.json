@@ -81,5 +81,9 @@
     "socials": {
       "discord": "https://discord.gg/YExAKF7euR"
     }
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
   }
 }
