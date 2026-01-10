@@ -11,75 +11,122 @@
 
   "favicon": "/logo/logo.png",
 
-  "logo": {
-    "light": "/logo/logogrand.png",
-    "dark": "/logo/logogrand.png"
-  },
-
   "navigation": {
-    "global": {
-      "languages": [
-        {
-          "language": "fr",
-          "href": "https://help.playzo.fr/playzo/introduction"
-        },
-        {
-          "language": "en",
-          "href": "https://help.playzo.fr/en/playzo/introduction"
-        }
-      ]
-    },
-    "tabs": [
+    "languages": [
       {
-        "tab": "Guide",
-        "groups": [
+        "language": "fr",
+        "tabs": [
           {
-            "group": "Playzo",
-            "pages": [
-              "playzo/introduction",
-              "playzo/changelog",
-              "playzo/faq",
-              "playzo/register"
+            "tab": "Guide",
+            "groups": [
+              {
+                "group": "Playzo",
+                "pages": [
+                  "playzo/introduction",
+                  "playzo/changelog",
+                  "playzo/faq",
+                  "playzo/register"
+                ]
+              },
+              {
+                "group": "Personnalisez votre profil",
+                "pages": [
+                  "profil/customisation",
+                  "profil/badges",
+                  "profil/apparence",
+                  "customization/titres",
+                  "customization/jeux",
+                  "customization/reseaux"
+                ]
+              },
+              {
+                "group": "Recherche de mates",
+                "pages": [
+                  "recherche/annonce"
+                ]
+              },
+              {
+                "group": "Guides",
+                "pages": [
+                  "guides/partage",
+                  "guides/discord",
+                  "guides/premium",
+                  "guides/verification",
+                  "guides/parrainage"
+                ]
+              },
+              {
+                "group": "Aide",
+                "pages": [
+                  "troubleshooting/personnalisation",
+                  "troubleshooting/discord",
+                  "troubleshooting/login"
+                ]
+              }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "tabs": [
           {
-            "group": "Personnalisez votre profil",
-            "pages": [
-              "profil/customisation",
-              "profil/badges",
-              "profil/apparence",
-              "customization/titres",
-              "customization/jeux",
-              "customization/reseaux"
-            ]
-          },
-          {
-            "group": "Recherche de mates",
-            "pages": [
-              "recherche/annonce"
-            ]
-          },
-          {
-            "group": "Guides",
-            "pages": [
-              "guides/partage",
-              "guides/discord",
-              "guides/premium",
-              "guides/verification",
-              "guides/parrainage"
-            ]
-          },
-          {
-            "group": "Aide",
-            "pages": [
-              "troubleshooting/personnalisation",
-              "troubleshooting/discord",
-              "troubleshooting/login"
+            "tab": "Guide",
+            "groups": [
+              {
+                "group": "Playzo",
+                "pages": [
+                  "en/playzo/introduction",
+                  "en/playzo/changelog",
+                  "en/playzo/faq",
+                  "en/playzo/register"
+                ]
+              },
+              {
+                "group": "Customize your profile",
+                "pages": [
+                  "en/profil/customisation",
+                  "en/profil/badges",
+                  "en/profil/apparence",
+                  "en/customization/titres",
+                  "en/customization/jeux",
+                  "en/customization/reseaux"
+                ]
+              },
+              {
+                "group": "Find teammates",
+                "pages": [
+                  "en/recherche/annonce"
+                ]
+              },
+              {
+                "group": "Guides",
+                "pages": [
+                  "en/guides/partage",
+                  "en/guides/discord",
+                  "en/guides/premium",
+                  "en/guides/verification",
+                  "en/guides/parrainage"
+                ]
+              },
+              {
+                "group": "Help",
+                "pages": [
+                  "en/troubleshooting/personnalisation",
+                  "en/troubleshooting/discord",
+                  "en/troubleshooting/login"
+                ]
+              }
             ]
           }
         ]
       }
     ]
+  },
+
+  "logo": {
+    "light": "/logo/logogrand.png",
+    "dark": "/logo/logogrand.png"
   },
 
   "navbar": {
