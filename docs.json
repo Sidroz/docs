@@ -86,6 +86,5 @@
   "appearance": {
     "default": "dark",
     "strict": true
-  },
-  "description": "test"
+  }
 }
