@@ -15,6 +15,10 @@
         "global": {
           "languages": [
             {
+              "language": "en",
+              "href": "https://help.playzo.fr/en/playzo/introduction"
+            },
+            {
               "language": "fr",
               "href": "https://help.playzo.fr/playzo/introduction"
             }
