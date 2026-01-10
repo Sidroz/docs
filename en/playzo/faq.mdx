@@ -1,3 +1,21 @@
 ---
-title: "Faq"
+title: "Frequently Asked Questions"
+sidebarTitle: "FAQ"
+description: "Find answers to the most frequently asked questions about our platform."
+icon: "message-question"
 ---
+
+<AccordionGroup>
+  <Accordion title="What is Playzo?">
+    **Playzo.fr** is a **HUB for Gamers**. The site allows you to create **customizable profiles** with features like links to your social networks, effects, animated avatars, and much more.\
+    Playzo.fr also provides a system to **find players to play with**! Using small ads, indicate your game and find the perfect teammate.
+  </Accordion>
+
+  <Accordion title="Is Playzo free?">
+    Yes, [playzo.fr](https://www.playzo.fr/) is **free**. You can create and customize your profile **at no cost** and without any hidden fees.
+
+    We also offer a **Premium plan** with extra features for those who want more advanced customization. 95% of the platform remains free.
+  </Accordion>
+</AccordionGroup>
+
+<script dangerouslySetInnerHTML={{ __html:"\n(function() {\n  let isToggling = false;\n  \n  document.addEventListener('click', function(e) {\n    const summary = e.target.closest('summary');\n    if (summary && !isToggling) {\n      const clickedAccordion = summary.parentElement;\n      const wasOpen = clickedAccordion.hasAttribute('open');\n      \n      isToggling = true;\n      \n      if (!wasOpen) {\n        const allAccordions = document.querySelectorAll('details[open]');\n        allAccordions.forEach(accordion => {\n          if (accordion !== clickedAccordion) {\n            accordion.removeAttribute('open');\n          }\n        });\n      }\n      \n      requestAnimationFrame(() => {\n        isToggling = false;\n      });\n    }\n  });\n})();\n" }} />
