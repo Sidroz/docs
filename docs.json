@@ -25,7 +25,8 @@
         },
         {
           "language": "en",
-          "href": "https://help.playzo.fr/en/playzo/introduction"
+          "href": "https://help.playzo.fr/en/playzo/introduction",
+          "pages": ["en/playzo/introduction", "es/quickstart", "es/development"]
         }
       ]
     },
