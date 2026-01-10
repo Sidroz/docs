@@ -2,28 +2,39 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
   "name": "Playzo Aide",
+
   "colors": {
     "primary": "#b40000",
     "light": "#b40000",
     "dark": "#b40000"
   },
+
   "favicon": "/logo/logo.png",
+
+  "logo": {
+    "light": "/logo/logogrand.png",
+    "dark": "/logo/logogrand.png"
+  },
+
   "navigation": {
+    "global": {
+      "languages": [
+        {
+          "language": "fr",
+          "label": "Français",
+          "href": "/playzo/introduction"
+        },
+        {
+          "language": "en",
+          "label": "English",
+          "href": "/en/playzo/introduction"
+        }
+      ]
+    },
+
     "tabs": [
       {
         "tab": "Guide",
-        "global": {
-          "languages": [
-            {
-              "language": "fr",
-              "href": "https://help.playzo.fr/playzo/introduction"
-            },
-            {
-              "language": "en",
-              "href": "https://help.playzo.fr/en/playzo/introduction"
-            }
-          ]
-        },
         "groups": [
           {
             "group": "Playzo",
@@ -35,7 +46,7 @@
             ]
           },
           {
-            "group": "Personnalisez votre Profil",
+            "group": "Personnalisez votre profil",
             "pages": [
               "profil/customisation",
               "profil/badges",
@@ -68,29 +79,12 @@
               "troubleshooting/discord",
               "troubleshooting/login"
             ]
-          },
-          {
-            "group": "en",
-            "pages": [
-              {
-                "group": "Playzo",
-                "pages": [
-                  "en/playzo/introduction",
-                  "playzo-copied-1/changelog",
-                  "playzo-copied-1/faq",
-                  "playzo-copied-1/register"
-                ]
-              }
-            ]
           }
         ]
       }
     ]
   },
-  "logo": {
-    "light": "/logo/logogrand.png",
-    "dark": "/logo/logogrand.png"
-  },
+
   "navbar": {
     "links": [
       {
@@ -104,11 +98,13 @@
       "href": "https://discord.gg/YExAKF7euR"
     }
   },
+
   "footer": {
     "socials": {
       "discord": "https://discord.gg/YExAKF7euR"
     }
   },
+
   "appearance": {
     "default": "dark",
     "strict": true
