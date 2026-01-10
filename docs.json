@@ -11,7 +11,15 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "",
+        "global": {
+          "languages": [
+            {
+              "language": "fr",
+              "href": "https://help.playzo.fr/playzo/introduction"
+            }
+          ]
+        },
         "groups": [
           {
             "group": "Playzo",
