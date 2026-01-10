@@ -21,17 +21,14 @@
       "languages": [
         {
           "language": "fr",
-          "label": "Français",
-          "href": "/playzo/introduction"
+          "href": "https://help.playzo.fr/playzo/introduction"
         },
         {
           "language": "en",
-          "label": "English",
-          "href": "/en/playzo/introduction"
+          "href": "https://help.playzo.fr/en/playzo/introduction"
         }
       ]
     },
-
     "tabs": [
       {
         "tab": "Guide",
